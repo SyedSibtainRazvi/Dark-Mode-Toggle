@@ -43,28 +43,30 @@ body {
 }
 
 @keyframes toggleOff {
-    0%{
+    0% {
         transform: translate(40px);
     }
+
     100% {
         transform: translate(0);
     }
 }
 
 @keyframes toggleOn {
-    0%{
+    0% {
         transform: translate(0px);
     }
+
     100% {
         transform: translate(40px);
     }
 }
 
-.name{
+.name {
     margin-bottom: 150px;
     left: 10px;
     align-items: center;
-    font-family:cursive;
+    font-family: cursive;
     font-size: large;
     position: relative;
 }
